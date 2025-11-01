@@ -1,0 +1,36 @@
+11.01 5:28 pm
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سادہ اسلامک ویب سائٹ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>اسلامک ویب سائٹ</h1>
+
+    <!-- Daily Hadith -->
+    <div id="hadith">
+      <h2>آج کی حدیث</h2>
+      <p id="hadithText">"صبر بہترین عمل ہے۔"</p>
+    </div>
+
+    <!-- Coins & Daily Sign-In -->
+    <div id="coinsSection">
+      <h2>آپ کے سکے: <span id="coins">0</span></h2>
+      <button id="dailySignIn">روزانہ سائن ان کریں</button>
+    </div>
+
+    <!-- Simple Task -->
+    <div id="tasks">
+      <h2>ٹاسک کریں</h2>
+      <button id="completeTask">ٹاسک مکمل کریں (+10 سکے)</button>
+      <p id="taskStatus"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
